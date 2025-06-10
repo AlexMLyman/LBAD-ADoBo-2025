@@ -1,0 +1,44 @@
+The following rules provide a robust, step-by-step protocol for identifying and annotating emergent, unassimilated English lexical borrowings (anglicisms) in Spanish text.
+
+1. Initial Identification
+- Determine if the word or multiword expression is of English origin or mimics English word formation.
+  - If the word is not of English origin, do not annotate as an anglicism.
+  - If it mimics English formation but does not exist in English (pseudoanglicism, e.g., *balconing*), annotate as an anglicism.
+
+2. Exclusion of Proper Names and Code-Mixed Inclusions
+- If the word is a proper noun (person, organization, product, location, event, etc.) or a direct code-mixed quotation, do not annotate.
+- Borrowings embedded within proper nouns or named entities are not annotated, unless the proper noun is part of a multiword borrowing used grammatically as in English (e.g., *Google cooking* is annotated).
+
+3. Graphophonological Compliance
+- If the word’s spelling and pronunciation conform to Spanish graphophonological rules (e.g., *bar*, *club*), proceed to dictionary checks.
+- If not (e.g., *show*, *look*), generally annotate unless it is a long-registered realia word (see Rule 5).
+
+4. Adaptation and Assimilation Status
+- If the word has been morphologically or orthographically adapted to Spanish (e.g., fútbol, tuit, líder), do not annotate.
+- If the word remains unadapted, continue to dictionary checks.
+
+5. Dictionary Verification
+- If the unadapted word is registered in the Diccionario de la Lengua Española (DLE):
+  - If it appears in italics, annotate as an anglicism.
+  - If it appears without italics and with the relevant meaning, do not annotate (it is considered assimilated).
+  - If it is not registered or not with the relevant meaning, annotate.
+- For multi-sense words (e.g., *top*), only annotate when used with unregistered meanings.
+
+6. Realia and Long-Registered Borrowings
+- If the word is a long-registered realia borrowing (cultural terms like jazz, pizza, whisky, club), do not annotate, even if unadapted.
+- If the word is a recent or emergent realia borrowing not yet registered, annotate.
+
+7. Multiword Borrowings
+- Annotate multiword expressions borrowed as a unit from English (e.g., reality show, best seller).
+- For adjacent borrowings not forming a fixed English phrase (e.g., look sporty), annotate each word separately.
+
+8. Exclusions and Special Cases
+- Do not annotate:
+  - Latinisms, scientific units, species names, acronyms (unless part of a multiword borrowing), or digits in isolation.
+  - Metalinguistic usages, literal quotations, or code-switched expressions not integrated into the sentence.
+  - Names of peoples or languages, and words derived transparently from proper nouns (e.g., *un iPhone*, *un whatsapp*).
+- Annotate:
+  - Pseudoanglicisms (Spanish-coined words mimicking English, e.g., footing, balconing).
+  - Unadapted names of fictitious creatures (e.g., hobbit, troll).
+  - Borrowings embedded in compounds or prefixed forms, if the borrowed element retains independence (e.g., ex influencer, nano influencers).
+
